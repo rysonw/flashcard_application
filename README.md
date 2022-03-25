@@ -10,11 +10,10 @@
 - [X] User can edit a card and see the edit saved when they browse through their deck of cards
 - [X] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
 
-<img src="https://imgur.com/a/8mTtHMh.gif" width="200" height="400" />  
+[Lab_Three](https://user-images.githubusercontent.com/91065673/160124843-368e9f56-f509-4c39-81a5-abe784f34c0f.gif)
+
 
 ## Lab 2
-
-## Required![Lab_Three](https://user-images.githubusercontent.com/91065673/160124843-368e9f56-f509-4c39-81a5-abe784f34c0f.gif)
 
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
 - [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
