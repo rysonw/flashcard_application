@@ -10,7 +10,7 @@
 - [X] User can edit a card and see the edit saved when they browse through their deck of cards
 - [X] User can create flashcards with multiple answers and be able to browse through cards with multiple choice answers shown
 
-[Lab_Three](https://user-images.githubusercontent.com/91065673/160124843-368e9f56-f509-4c39-81a5-abe784f34c0f.gif)
+![Lab_Three](https://user-images.githubusercontent.com/91065673/160124993-290a7b0a-fc8d-4e71-a87c-700f6f02c0af.gif)
 
 
 ## Lab 2
