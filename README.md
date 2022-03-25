@@ -14,7 +14,8 @@
 
 ## Lab 2
 
-## Required
+## Required![Lab_Three](https://user-images.githubusercontent.com/91065673/160124843-368e9f56-f509-4c39-81a5-abe784f34c0f.gif)
+
 - [x] User can click on a ‘+’ button that takes the user to new ‘Add Card Screen’
 - [x] The 'Add Card Screen' has a cancel button to take the user back to the main screen
 - [x] User can enter and submit a Question and Answer through the 'Add Card Screen'
