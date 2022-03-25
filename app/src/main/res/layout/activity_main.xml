@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question_textview"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:background="@drawable/card_background"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:fontFamily="monospace"
+        android:text="Q. What is 3 + 3?"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/flashcard_answer_textview"
+        android:layout_width="400dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/card_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="A. SIX"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/answerChoice1_textview"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/flashcard_question_textview"
+        android:background="@drawable/button_background"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="1. Three"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/answerChoice2_textview"
+        android:layout_below="@id/answerChoice1_textview"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="2. Six"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/answerChoice3_textview"
+        android:layout_below="@id/answerChoice2_textview"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="3. Eight"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/toggle_choices_visibility_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerChoice3_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/hide_view" />
+
+    <ImageView
+        android:id="@+id/add_button_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/icon_add" />
+
+    <ImageView
+        android:id="@+id/edit_button_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/icon_edit" />
+
+    <ImageView
+        android:id="@+id/next_button_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flashcard_question_textview"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/icon_next" />
+
+    <ImageView
+        android:id="@+id/prev_button_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flashcard_question_textview"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/icon_prev" />
+
+    <ImageView
+        android:id="@+id/delete_button_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/flashcard_question_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/icon_delete" />
+
+    <ImageView
+        android:id="@+id/empty_state_imageview"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/empty_state_android"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/empty_state_textview"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="FLASHCARDS WILL GO HERE"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/create_flashcard_textview"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empty_state_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="monospace"
+        android:text="CREATE FLASHCARD"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"
+        android:padding="5dp"
+        android:elevation="2dp"
+        android:textSize="15sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
