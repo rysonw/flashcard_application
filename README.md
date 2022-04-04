@@ -30,8 +30,6 @@
    - [x] Custom: Multiple choices are randomly ordered when card is created
    - [x] Custom: Add / Edit card field displays floating label feedback
    - [x] Custom: Add / Edit card field shows error message when the field is blank 
- 
-![Lab 2](https://user-images.githubusercontent.com/91065673/160225299-186d6ac7-7ccb-43f5-91c0-34d7d0f6acce.gif)
 
 
 ## Lab 1
