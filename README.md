@@ -1,3 +1,6 @@
+
+## iStudy:
+
 This application allows users to interactively engage by...
 - Flipping the question and answer cards
 - Choosing an answer from multiple choices
