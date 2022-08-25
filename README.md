@@ -1,5 +1,5 @@
 
-## iStudy:
+## Flashcard Application:
 
 This application allows users to interactively engage by...
 - Flipping the question and answer cards
